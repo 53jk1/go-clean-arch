@@ -6,9 +6,9 @@ import (
 
 	"github.com/labstack/echo"
 	"github.com/sirupsen/logrus"
-	validator "gopkg.in/go-playground/validator.v9"
+	"gopkg.in/go-playground/validator.v9"
 
-	"github.com/bxcodec/go-clean-arch/domain"
+	"github.com/53jk1/go-clean-arch/domain"
 )
 
 // ResponseError represent the reseponse error struct

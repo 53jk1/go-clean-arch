@@ -1,4 +1,4 @@
-module github.com/bxcodec/go-clean-arch
+module github.com/53jk1/go-clean-arch
 
 go 1.19
 

@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	sqlmock "gopkg.in/DATA-DOG/go-sqlmock.v1"
+	"gopkg.in/DATA-DOG/go-sqlmock.v1"
 
-	"github.com/bxcodec/go-clean-arch/article/repository"
-	articleMysqlRepo "github.com/bxcodec/go-clean-arch/article/repository/mysql"
-	"github.com/bxcodec/go-clean-arch/domain"
+	"github.com/53jk1/go-clean-arch/article/repository"
+	articleMysqlRepo "github.com/53jk1/go-clean-arch/article/repository/mysql"
+	"github.com/53jk1/go-clean-arch/domain"
 )
 
 func TestFetch(t *testing.T) {

@@ -15,9 +15,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	articleHttp "github.com/bxcodec/go-clean-arch/article/delivery/http"
-	"github.com/bxcodec/go-clean-arch/domain"
-	"github.com/bxcodec/go-clean-arch/domain/mocks"
+	articleHttp "github.com/53jk1/go-clean-arch/article/delivery/http"
+	"github.com/53jk1/go-clean-arch/domain"
+	"github.com/53jk1/go-clean-arch/domain/mocks"
 )
 
 func TestFetch(t *testing.T) {
