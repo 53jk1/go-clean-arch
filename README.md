@@ -37,7 +37,7 @@ This project has  4 Domain layer :
 
 The original explanation about this project's structure  can read from this medium's post : https://medium.com/@imantumorang/golang-clean-archithecture-efd6d7c43047.
 
-It may different already, but the concept still the same in application level, also you can see the change log from v1 to current version in Master.
+It may be different already, but the concept still the same in application level, also you can see the change log from v1 to current version in Master.
 
 ### How To Run This Project
 > Make Sure you have run the article.sql in your mysql
@@ -82,7 +82,7 @@ $ make stop
 
 
 ### Tools Used:
-In this project, I use some tools listed below. But you can use any simmilar library that have the same purposes. But, well, different library will have different implementation type. Just be creative and use anything that you really need. 
+In this project, I use some tools listed below. But you can use any similar library that have the same purposes. But, well, different library will have different implementation type. Just be creative and use anything that you really need. 
 
 - All libraries listed in [`go.mod`](https://github.com/53jk1/go-clean-arch/blob/master/go.mod) 
 - ["github.com/vektra/mockery".](https://github.com/vektra/mockery) To Generate Mocks for testing needs.
