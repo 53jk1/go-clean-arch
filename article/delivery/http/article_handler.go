@@ -3,6 +3,7 @@ package http
 import (
 	"net/http"
 	"strconv"
+	"time"
 
 	"github.com/labstack/echo"
 	"github.com/sirupsen/logrus"
@@ -79,6 +80,10 @@ func isRequestValid(m *domain.Article) (bool, error) {
 func (a *ArticleHandler) Store(c echo.Context) (err error) {
 	var article domain.Article
 	err = c.Bind(&article)
+
+	article.UpdatedAt = time.Now()
+	article.CreatedAt = time.Now()
+
 	if err != nil {
 		return c.JSON(http.StatusUnprocessableEntity, err.Error())
 	}
